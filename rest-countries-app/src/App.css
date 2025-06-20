@@ -1,0 +1,28 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0d1117; /* dark background */
+  color: #c9d1d9; /* soft white text */
+}
+
+main {
+  flex: 1;
+}
+
+/* Neon glow effects */
+
+
+.card-glow {
+  border: 1px solid #00ffff88;
+  box-shadow: 0 0 8px #00ffff88;
+}
+
+.button-glow:hover {
+  background-color: #00ffff22;
+  box-shadow: 0 0 10px #00ffffaa;
+}
+
+.glow-text {
+  text-shadow: 0 0 4px #00ffff, 0 0 8px #00ffff, 0 0 16px #00ffff;
+}
